@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Cheatsheet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        pre {
+            background-color: #e8e8e8;
+            padding: 10px;
+            border-left: 5px solid #333;
+            overflow: auto;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        code {
+            background-color: #f0f0f0;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>CSS Cheatsheet</h1>
+
+    <div class="section">
+        <h2>1. Basic Syntax</h2>
+        <pre><code>selector {
+    property: value;
+}</code></pre>
+        <p>Example:</p>
+        <pre><code>h1 {
+    color: blue;
+}</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>2. Box Model</h2>
+        <p>The CSS box model consists of margins, borders, padding, and the actual content area.</p>
+        <pre><code>/* Box Model Example */
+.box {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 10px;
+}</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>3. Positioning</h2>
+        <p>Types of positioning:</p>
+        <ul>
+            <li><strong>static</strong>: Default position, follows the normal flow.</li>
+            <li><strong>relative</strong>: Positioned relative to its normal position.</li>
+            <li><strong>absolute</strong>: Positioned relative to the nearest positioned ancestor.</li>
+            <li><strong>fixed</strong>: Positioned relative to the viewport, remains in place when scrolling.</li>
+            <li><strong>sticky</strong>: Switches between relative and fixed, depending on scroll position.</li>
+        </ul>
+        <pre><code>.relative {
+    position: relative;
+    top: 10px;
+}
+
+.absolute {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>4. Display Properties</h2>
+        <p>Common values:</p>
+        <ul>
+            <li><code>block</code>: Takes full width, starts on a new line.</li>
+            <li><code>inline</code>: Takes only the width needed, does not start on a new line.</li>
+            <li><code>inline-block</code>: Behaves like inline but allows height and width.</li>
+            <li><code>flex</code>: Enables flexbox layout.</li>
+            <li><code>grid</code>: Enables grid layout.</li>
+            <li><code>none</code>: Hides the element.</li>
+        </ul>
+        <pre><code>.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>5. Flexbox</h2>
+        <p>Flexbox properties:</p>
+        <pre><code>.container {
+    display: flex;
+    justify-content: space-between; /* align items along the main axis */
+    align-items: center; /* align items along the cross axis */
+}</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>6. Grid Layout</h2>
+        <p>Grid properties:</p>
+        <pre><code>.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 10px; /* space between grid items */
+}</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>7. Animations</h2>
+        <p>Basic CSS animations:</p>
+        <pre><code>@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+.animated {
+    animation-name: example;
+    animation-duration: 4s;
+}</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>8. Micro-interactions</h2>
+        <p>Example of a hover effect:</p>
+        <pre><code>.button {
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: blue;
+    color: white;
+}</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>9. Advanced Selectors</h2>
+        <pre><code>/* Child Selector */
+.parent > .child {
+    color: red;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    border: 1px solid #ccc;
+}</code></pre>
+    </div>
+</div>
+
+</body>
+</html>

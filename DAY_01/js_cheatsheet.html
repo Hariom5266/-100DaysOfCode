@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Cheatsheet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        pre {
+            background-color: #e8e8e8;
+            padding: 10px;
+            border-left: 5px solid #333;
+            overflow: auto;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        code {
+            background-color: #f0f0f0;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>JavaScript Cheatsheet</h1>
+
+    <div class="section">
+        <h2>1. Basic Syntax</h2>
+        <pre><code>// Single line comment
+/* Multi-line comment */
+
+let x = 5; // Declaring a variable
+const y = 10; // Declaring a constant
+</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>2. Data Types</h2>
+        <p>Common data types:</p>
+        <ul>
+            <li><code>String</code></li>
+            <li><code>Number</code></li>
+            <li><code>Boolean</code></li>
+            <li><code>Object</code></li>
+            <li><code>Array</code></li>
+            <li><code>Undefined</code></li>
+            <li><code>Null</code></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>3. Functions</h2>
+        <pre><code>function myFunction(param) {
+    return param * 2;
+}
+
+const myArrowFunction = (param) => param * 2;
+</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>4. Control Structures</h2>
+        <pre><code>// If statement
+if (x > 5) {
+    console.log("x is greater than 5");
+} else {
+    console.log("x is less than or equal to 5");
+}
+
+// Switch statement
+switch (fruit) {
+    case 'apple':
+        console.log('Apple');
+        break;
+    default:
+        console.log('Not an apple');
+}
+</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>5. Loops</h2>
+        <pre><code>// For loop
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+
+// While loop
+let j = 0;
+while (j < 5) {
+    console.log(j);
+    j++;
+}
+</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>6. Arrays</h2>
+        <pre><code>let fruits = ['apple', 'banana', 'orange'];
+console.log(fruits[0]); // Accessing elements
+fruits.push('grape'); // Adding elements
+</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>7. Objects</h2>
+        <pre><code>let person = {
+    name: 'John',
+    age: 30,
+    greet: function() {
+        console.log('Hello ' + this.name);
+    }
+};
+
+person.greet(); // Calling method
+</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>8. ES6 Features</h2>
+        <ul>
+            <li><strong>Template Literals:</strong> <code>let message = `Hello, ${name}`;</code></li>
+            <li><strong>Destructuring:</strong> <code>const { name, age } = person;</code></li>
+            <li><strong>Spread Operator:</strong> <code>let newArray = [...fruits];</code></li>
+            <li><strong>Promises:</strong> <code>let promise = new Promise((resolve, reject) => { ... });</code></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>9. DOM Manipulation</h2>
+        <pre><code>const element = document.getElementById('myElement');
+element.style.color = 'blue'; // Change style
+element.innerHTML = 'Hello World!'; // Change content
+</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>10. Event Handling</h2>
+        <pre><code>element.addEventListener('click', function() {
+    alert('Element clicked!');
+});
+</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>11. Fetch API</h2>
+        <pre><code>fetch('https://api.example.com/data')
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error('Error:', error));
+</code></pre>
+    </div>
+</div>
+
+</body>
+</html>
