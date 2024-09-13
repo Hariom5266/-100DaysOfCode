@@ -97,8 +97,8 @@ Throughout the challenge, I'll be using various resources to enhance my learning
 - [Udemy](https://www.udemy.com/)
 - [Code with Harry](https://www.codewithharry.com/)
 - [Thapa Technical YouTube](https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA)
-- [ChaiaurCode](https://chaiaurcode.com/)
-- [Sigma Web Development](https://sigmawebdevelopment.com/)
+- [ChaiaurCode Youtube](https://www.youtube.com/@chaiaurcode)
+- [Sigma Web Development]([https://sigmawebdevelopment.com/](https://www.youtube.com/watch?v=tVzUXW6siu0&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w))
 
 ---
 
