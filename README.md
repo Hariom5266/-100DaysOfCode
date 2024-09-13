@@ -72,6 +72,9 @@ As I progress, I will build several projects to showcase my knowledge, including
 - **Blog Platform**: A CRUD application with a Node.js backend.
 - **E-Commerce App**: A full-fledged project covering frontend, backend, and database integration.
 - **Community App**: A full stack community app on big scale
+- **Streaming App** : Create a full-fleged Streaming App
+- **Music Player**: Make a fully responsive and best music plyer with ML Algo and etc
+- **Educational Platform**: Make a Educational platform teacher can teach make a class, can meeting, Todo, notification and reminder white-board, student chat etc featuer.
 
 ---
 
