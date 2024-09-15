@@ -32,7 +32,7 @@ I'll be coding for a minimum of **1 hour** every day, and each day's progress wi
 For each completed day with a minimum of 1 hour of JavaScript, 1 hour of Python, 1 hour of college work, and 45 minutes of workout, I will mark the progress with a ✅.
 | Day | Python | JS  | College | Workout | Marks |
 |-----|--------|-----|---------|---------|-------|
-| 1   | ✅     | ✅  | ✅      | ✅      |       |
+| 1   | ✅     | ✅  | ✅      | ✅      |   10    |
 | 2   |        |     |         |         |       |
 | 3   |        |     |         |         |       |
 | 4   |        |     |         |         |       |
